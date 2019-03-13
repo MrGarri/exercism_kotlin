@@ -1,0 +1,10 @@
+.exercism/
+.gradle/
+.idea/
+build/
+out/
+*gradle*
+test/
+*.md
+*iml
+Run.java
