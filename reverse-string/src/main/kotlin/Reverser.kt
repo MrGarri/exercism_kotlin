@@ -10,7 +10,5 @@ fun reverse (str: String): String {
     return result
 }
 
-fun String.prepend(s: Char): String {
-    val sb = StringBuilder(this)
-    return sb.insert(0, s).toString()
-}
+fun String.prepend(s: Char): String =
+        StringBuilder(this).insert(0, s).toString()
