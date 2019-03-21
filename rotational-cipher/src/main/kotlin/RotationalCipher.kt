@@ -10,7 +10,7 @@ class RotationalCipher(private val shift: Int) {
                 else -> encryption.append(Character.toChars(c))
             }
         }
-        
+
         return encryption.toString()
     }
 }
