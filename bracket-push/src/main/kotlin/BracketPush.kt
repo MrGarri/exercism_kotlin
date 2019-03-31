@@ -26,7 +26,7 @@ object BracketPush {
                 '(' -> ')'
                 else -> null
             }
-    
+
     private fun Char.isBracket(): Boolean = this in "()[]{}"
     private fun Char.isOpeningBracket(): Boolean = this in "({["
 
